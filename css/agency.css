@@ -81,11 +81,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     background-color: #fed136;
     border-color: #fed136;
+    border-radius: 3px;
+}
+
+.btn-lg{
     text-transform: uppercase;
     font-weight: 700;
-    border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
 }
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
@@ -163,7 +166,60 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fec503
 }
 
+
+.desc-box{
+	margin-bottom: 20px;
+	border-top: 1px solid #eee;
+}
+
+.desc-box .content{
+    position:relative;
+}
+
+.desc-box .content>p{
+    text-align:left;
+}
+
+.desc-box .content>p.text-muted{
+    text-align:center;
+}
+
+.desc-box .content .modal{
+    width: 750px;
+}
+
+.desc-box .height-set .btn-area{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+.about-modal{
+    max-width:750px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    margin-bottom:1.75em;
+}
+.about-modal .modal-body .content{
+    margin:20px 0;
+}
+
+.about-modal .avatar{
+    object-fit:cover;
+    border: 7px solid #f1f1f1;
+}
+.about-modal .name{
+    text-align:center;
+    margin-top:.75em;
+}
+
 @media (min-width: 768px) {
+    .desc-box{
+        margin-bottom:0;
+        border-top:0;
+    }
+    
     .navbar-default {
         background-color: transparent;
         padding: 25px 0;
@@ -287,19 +343,19 @@ section h3.section-subheading {
     text-transform: none
 }
 
-#portfolio .portfolio-item {
+#news .portfolio-item {
     margin: 0 0 15px;
     right: 0
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#news .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#news .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(254, 209, 54, .9);
     position: absolute;
     width: 100%;
@@ -310,11 +366,11 @@ section h3.section-subheading {
     -moz-transition: all ease .5s
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#news .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     width: 100%;
     height: 20px;
@@ -325,15 +381,15 @@ section h3.section-subheading {
     color: #fff
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#news .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
@@ -341,20 +397,20 @@ section h3.section-subheading {
     padding: 25px
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#news .portfolio-item .portfolio-caption h4 {
     text-transform: none;
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#news .portfolio-item .portfolio-caption p {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     margin: 0
 }
 
-#portfolio * {
-    z-index: 2
+#news * {
+    z-index: 2;
 }
 
 @media (min-width: 767px) {
@@ -474,6 +530,9 @@ section h3.section-subheading {
     margin-bottom: 0
 }
 
+.timeline > li .timeline-image h4 {
+    padding-top: 13px;
+}
 @media (min-width: 768px) {
     .timeline:before {
         left: 50%
@@ -501,7 +560,8 @@ section h3.section-subheading {
     .timeline > li .timeline-image h4 {
         font-size: 13px;
         margin-top: 16px;
-        line-height: 18px
+        line-height: 18px;
+        padding-top: 0;
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
@@ -798,10 +858,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136
-}
-
-@media (max-width:767px) {
-    .timeline > li .timeline-image h4 {
-        padding-top: 13px;
-    }
 }

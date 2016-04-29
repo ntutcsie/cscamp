@@ -13,6 +13,17 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    $('.layer').each(function(){
+        var maxHeight=0;
+        var c=$(this).find('.desc-box>.content');
+        
+        c.each(function(){
+           var h=$(this).height();
+           if(h>maxHeight) maxHeight=h;
+        });
+        c.css('height', (maxHeight) + 'px').addClass('height-set');
+    });
 });
 
 // Highlight the top nav as scrolling occurs
