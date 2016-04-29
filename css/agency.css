@@ -240,7 +240,7 @@ header .intro-text .intro-heading {
         line-height: 40px;
         margin-bottom: 25px
     }
-    
+
     header .intro-text .btn{
         margin-top:33%;
         margin-top: -webkit-calc(100vh - 270px);
@@ -249,7 +249,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-            text-transform: uppercase;
+        text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
         line-height: 75px;
@@ -798,4 +798,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136
+}
+
+@media (max-width:767px) {
+    .timeline > li .timeline-image h4 {
+        padding-top: 13px;
+    }
 }
