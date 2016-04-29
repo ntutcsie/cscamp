@@ -215,11 +215,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-    .desc-box{
-        margin-bottom:0;
-        border-top:0;
-    }
-    
     .navbar-default {
         background-color: transparent;
         padding: 25px 0;
@@ -572,6 +567,11 @@ section h3.section-subheading {
 }
 
 @media (min-width: 992px) {
+    .desc-box{
+        margin-bottom:0;
+        border-top:0;
+    }
+    
     .timeline > li {
         min-height: 150px
     }
