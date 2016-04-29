@@ -1064,3 +1064,54 @@ li.active span.round-tabs.five{
     }
 }
 
+
+
+#countdown_dashboard {
+    max-width: 900px;
+    overflow: hidden;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    #countdown_dashboard {
+        margin:0 auto;
+    }
+}
+
+
+.digit {
+    height: 65px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    position: relative;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.dash_title {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: uppercase
+}
+
+.days_dash,.hours_dash,.minutes_dash {
+    position: relative;
+    margin-bottom: 30px
+}
+
+.days_dash:after,.minutes_dash:after {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    right: -15px;
+    height: 100%;
+    content: '';
+    background-color: #fff
+}

@@ -210,9 +210,73 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <div id="counter" class="text-center">
-                    <h2>00D 00H</h2><h2>11M 11S</h2>
-                </div>
+
+               <!-- countdown_dashboard -->
+                <div id="countdown_dashboard" class="countdown">
+                    <div class="row">
+                        <!-- Days -->
+                        <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+                            <div class="days_dash">
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div>
+                                </div>
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div>
+                                </div>
+                                <span class="dash_title">days</span>
+                            </div>
+                        </div><!-- /Days -->
+
+                        <!-- Hours -->
+                        <div class="col-md-3 col-sm-3 col-xs-4">
+                            <div class="hours_dash">
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div>
+                                </div>
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div>
+                                </div>
+                                <span class="dash_title">hours</span>
+                            </div>
+                        </div><!-- /Hours -->
+                    </div>
+
+                    <div class="row">
+                        <!-- Minutes -->
+                        <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+                            <div class="minutes_dash">
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div>
+                                </div>
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div>
+                                </div>
+                                <span class="dash_title">minutes</span>
+                            </div>
+                        </div><!-- /Minutes -->
+
+                        <!-- Seconds -->
+                        <div class="col-md-3 col-sm-3 col-xs-4">
+                            <div class="seconds_dash">
+                                <div class="digit">
+                                    <div class="top" style="display: none;">0</div>
+                                    <div class="bottom" style="display: block;">0</div></div>
+                                <div class="digit">
+                                    <div class="top" style="display: block; overflow: hidden; height: 58.3951px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">0</div>
+                                    <div class="bottom" style="display: block; overflow: hidden; height: 6.7081015625px;">0</div>
+                                </div>
+                                <span class="dash_title">seconds</span>
+                            </div>
+                        </div><!-- /Seconds -->
+                    </div>
+                </div><!-- /countdown_dashboard -->
+
                 <hr/>
                 <a href="#" class="btn btn-xl btn-lg btn-block">立即報名</a>
                 <p>&nbsp;</p>
@@ -1116,6 +1180,7 @@
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/jquery.lwtCountdown-1.0.js"></script>
 
 <!-- Contact Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
