@@ -205,7 +205,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">報名資訊</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Registration</h3>
             </div>
         </div>
         <div class="row">
@@ -213,48 +213,96 @@
                 <div id="counter" class="text-center">
                     <h2>00D 00H</h2><h2>11M 11S</h2>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="form-group">
-                    <label class="form-control-label">報名期間：</label>
-                    <span class="form-control-static">2016/01/01 (一) ~ 2016/12/31 (一)</span>
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">報名費用：</label>
-                    <span class="form-control-static">$1,000</span>
-                </div>
-                <div class="form-group">
-                    <p></p>
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">活動日期：</label>
-                    <span class="form-control-static">07/04(一)~07/06(三)</span>
-                </div>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/NTUT2016CSIE/"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
                 <hr/>
                 <a href="#" class="btn btn-xl btn-lg btn-block">立即報名</a>
                 <p>&nbsp;</p>
-                <p></p>
+            </div>
+            <div id="signup-step" class="col-sm-6">
+                <div class="row">
+                    <div class="board">
+                        <div class="board-inner">
+                            <ul class="nav nav-tabs" id="register">
+                                <div class="liner"></div>
+                                <li class="active">
+                                    <a href="#info" data-toggle="tab" title="報名資訊">
+                                    <span class="round-tabs one">
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li><a href="#wait" data-toggle="tab" title="等待報名結果">
+                                    <span class="round-tabs two">
+                                    <i class="fa fa-spinner aria-hidden="true""></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li><a href="#pay" data-toggle="tab" title="繳費">
+                                    <span class="round-tabs three">
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li><a href="#mail" data-toggle="tab" title="寄送家長同意書">
+                                    <span class="round-tabs four">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li><a href="#done" data-toggle="tab" title="完成報名">
+                                    <span class="round-tabs five">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="info">
+                                <p class="form-group">
+                                    <label class="form-control-label">報名期間：</label>
+                                    <span class="form-control-static">2016/01/01 (一) ~ 2016/12/31 (一)</span>
+                                </p>
+                                <p class="form-group">
+                                    <label class="form-control-label">報名費用：</label>
+                                    <span class="form-control-static">$1,000</span>
+                                </p>
+                                <p class="form-group">
+                                    <label class="form-control-label">活動日期：</label>
+                                    <span class="form-control-static">07/04(一)~07/06(三)</span>
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="wait">
+                                <h3 class="head text-center">等待報名結果</h3>
+                                <p class="narrow text-center">
+                                    詳細名單將公告於網站
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pay">
+                                <h3 class="head text-center">繳費</h3>
+                                <p class="narrow text-center">繳費方式 ...</p>
+                            </div>
+                            <div class="tab-pane fade" id="mail">
+                                <h3 class="head text-center">寄送家長同意書</h3>
+                                <p class="narrow text-center">請寄至 ...</p>
+                                <p class="text-center">
+                                    <a href="" class="btn btn-success btn-outline-rounded green">
+                                        下載家長同意書 <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="done">
+                                <h3 class="head text-center">完成報名 <span style="color:#f48260;">♥</span></h3>
+                                <p class="narrow text-center">
+                                    報名完成將會收到工作人員的回信<br>
+                                    期待與您一同一探究竟霍格華資的奇幻旅程
+                                </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-            </div>
-        </div>
-        -->
     </div>
 </section>
 <!--/#signup-->
