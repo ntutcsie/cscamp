@@ -13,6 +13,8 @@
         omitWeeks: true
     });
 
+    $('img').lazyload();
+
 })(jQuery);
 
 wow = new WOW({
