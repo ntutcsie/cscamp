@@ -113,7 +113,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default {
     background-color: #222;
-    border-color: transparent
+    border-color: transparent;
+    border-bottom:1px solid #000;
 }
 
 .navbar-default .navbar-brand {
@@ -172,8 +173,15 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: 1px solid #eee;
 }
 
+.desc-box .service-heading{
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 .desc-box .content{
     position:relative;
+    word-break: break-all;
 }
 
 .desc-box .content>p{
@@ -315,7 +323,7 @@ section {
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: .5em;
 }
 
 section h3.section-subheading {
@@ -398,7 +406,7 @@ section h3.section-subheading {
 }
 
 #news .portfolio-item .portfolio-caption p {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-style: italic;
     font-size: 16px;
     margin: 0
@@ -426,9 +434,9 @@ section h3.section-subheading {
     position: absolute;
     content: "";
     width: 2px;
-    background-color: #f1f1f1;
+    background-color: #E0E0E0;
     left: 40px;
-    margin-left: -1.5px
+    margin-left: -1.5px;
 }
 
 .timeline > li {
@@ -478,8 +486,8 @@ section h3.section-subheading {
     background-color: #fed136;
     color: #fff;
     border-radius: 100%;
-    border: 7px solid #f1f1f1;
-    text-align: center
+    border: 7px solid #E0E0E0;
+    text-align: center;
 }
 
 .timeline > li .timeline-image h4 {
@@ -577,7 +585,7 @@ section h3.section-subheading {
     }
 
     .timeline > li .timeline-panel {
-        padding: 0 20px 20px 0px;
+        padding: 25px 20px 20px 0px;
     }
 
     .timeline > li .timeline-image {
@@ -593,7 +601,7 @@ section h3.section-subheading {
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
-        padding: 0 20px 20px 0;
+        padding: 25px 20px 20px 0;
     }
 }
 
@@ -784,7 +792,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-style: italic;
     font-size: 16px
 }
@@ -1013,7 +1021,7 @@ li.active span.round-tabs.five{
     padding-top: 50px;
 }
 #signup-step .tab-content .head{
-    font-family: 'Roboto Condensed', sans-serif;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
     font-size: 25px;
     text-transform: uppercase;
     padding-bottom: 10px;
