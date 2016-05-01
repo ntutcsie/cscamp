@@ -520,19 +520,28 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">交通指南</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Transportation</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-md-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.9964431080755!2d121.53351200116276!3d25.043922524068854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDAyJzM4LjMiTiAxMjHCsDMyJzAxLjciRQ!5e0!3m2!1szh-TW!2stw!4v1461549069535" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <div id="googlemap" style="width:100%; height:450px;"></div>
                         <!--25.0439695,121.5338048-->
                     </div>
                     <div class="col-md-6">
-                        <h4>搭乘捷運：</h4>
+                        <h4>搭乘臺北捷運</h4>
                         <p>藍線【板南土城線】忠孝新生站 或 橘線【中和新蘆線】忠孝新生站，4號出口台北科技大學。</p>
+                        <br>
+                        <h4>搭乘臺北市公車</h4>
+                        <p>台北科技大學站--212、212直達車、232、262、299及605。忠孝新生路口站--72、109、115、214、222、226、280、290、505、642、665、668、672及松江新生幹線。</p>
+                        <br>
+                        <h4>搭乘臺鐵</h4>
+                        <p>由台北火車站直接轉捷運【板南線】至忠孝新生站，4號出口台北科技大學。</p>
+                        <br>
+                        <h4>搭乘高鐵</h4>
+                        <p>由高鐵台北站直接轉捷運【板南線】至忠孝新生站，4號出口台北科技大學。</p>
                     </div>
                 </div>
             </div>
@@ -1184,6 +1193,7 @@
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.lwtCountdown-1.0.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
 <!-- Contact Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
@@ -1192,6 +1202,7 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/agency.js"></script>
 <script src="js/main.js"></script>
+<script src="js/map.js"></script>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
