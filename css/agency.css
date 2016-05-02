@@ -341,6 +341,10 @@ section h3.section-subheading {
     }
 }
 
+#intro {
+    background: #000 url('../img/intro.png') no-repeat 20% 15%;
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none
