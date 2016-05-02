@@ -1039,9 +1039,7 @@ li.active span.round-tabs.five{
     color: #ffffff;
 }
 
-
-@media( max-width : 585px ){
-
+@media (max-width: 585px) {
     .board {
         width: 90%;
         height:auto !important;
@@ -1072,6 +1070,12 @@ li.active span.round-tabs.five{
     }
 }
 
+
+@media (max-width: 850px) {
+    header {
+        background-size: contain !important;
+    }
+}
 
 
 #countdown_dashboard {
