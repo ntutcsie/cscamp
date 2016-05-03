@@ -1131,3 +1131,7 @@ li.active span.round-tabs.five{
     content: '';
     background-color: #fff
 }
+
+.team-padding-center {
+    padding-top: 50px;
+}
