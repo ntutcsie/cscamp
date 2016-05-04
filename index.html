@@ -100,8 +100,12 @@
 <!-- Header -->
 <header class="wow animated fadeIn">
     <div class="container">
-        <div class="intro-text">
-            <a href="#signup" class="page-scroll btn btn-xl btn-lg" style="background:rgba(0,0,0,0.2);">立即報名</a>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-4">
+                <div class="intro-text">
+                    <a href="#signup" class="page-scroll btn btn-xl btn-lg btn-block">立即報名</a>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -905,16 +909,19 @@
 </div>
 
 <!-- About Modal #1 -->
-<div class="about-modal modal fade " id="aboutModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="modal-body">
-                        <h2>簡報設計藝術</h2>
-                        <div class="content">
+<div class="about-modal modal fade" id="aboutModal1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">簡報設計藝術</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="row">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-3 col-xs-4 text-center col-xs-offset-4">
+                                <div class="col-md-3 col-md-offset-0 col-xs-4 text-center col-xs-offset-4">
                                     <img class="img-circle img-responsive avatar" src="img/class/ppt.jpg" alt="">
                                     <div class="name">
                                         講師: 林國朝 Naylor
@@ -952,29 +959,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-right">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                返回
-                            </button>
-                        </div>
-                    </div>
                 </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                    關閉
+                </button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- About Modal #2 -->
-<div class="about-modal modal fade " id="aboutModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="modal-body">
-                        <h2>iOS Swift app程式設計</h2>
-                        <div class="content">
+<div class="about-modal modal fade" id="aboutModal2" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">iOS Swift app程式設計</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="row">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-3 col-xs-4 text-center col-xs-offset-4">
+                                <div class="col-md-3 col-md-offset-0 col-xs-4 text-center col-xs-offset-4">
                                     <img class="img-circle img-responsive avatar" src="img/class/swift.jpg" alt="">
                                     <div class="name">
                                         講師: 劉柏宏 Lucy
@@ -1005,29 +1015,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-right">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                返回
-                            </button>
-                        </div>
-                    </div>
                 </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                    關閉
+                </button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- About Modal #3 -->
-<div class="about-modal modal fade " id="aboutModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="modal-body">
-                        <h2>Unity3D遊戲設計</h2>
-                        <div class="content">
+<div class="about-modal modal fade" id="aboutModal3" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">Unity3D 遊戲設計</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="row">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-3 col-xs-4 text-center col-xs-offset-4">
+                               <div class="col-md-3 col-md-offset-0 col-xs-4 text-center col-xs-offset-4">
                                     <img class="img-circle img-responsive avatar" src="img/class/unity.jpg" alt="">
                                     <div class="name">
                                         講師: 林家禾 David
@@ -1066,32 +1079,35 @@
                                         <li>加碼. 我的牌桌縮小了！ - 匯出至android手機</li>
                                     </ol>
 
-                                </div>
+                                </div> 
                             </div>
                         </div>
-                        <div class="text-right">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                返回
-                            </button>
-                        </div>
-                    </div>
                 </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                    關閉
+                </button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- About Modal #4 -->
-<div class="about-modal modal fade " id="aboutModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="modal-body">
-                        <h2>HTML5/CSS3 網頁前端設計</h2>
-                        <div class="content">
+<div class="about-modal modal fade" id="aboutModal4" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">HTML5/CSS3 網頁前端設計</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="row">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-3 col-xs-4 text-center col-xs-offset-4">
+                                <div class="col-md-3 col-md-offset-0 col-xs-4 text-center col-xs-offset-4">
                                     <img class="img-circle img-responsive avatar" src="img/class/html.png" alt="">
                                     <div class="name">
                                         講師: 林煒淳 Weichun
@@ -1122,29 +1138,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-right">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                返回
-                            </button>
-                        </div>
-                    </div>
                 </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                    關閉
+                </button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- About Modal #5 -->
-<div class="about-modal modal fade " id="aboutModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="modal-body">
-                        <h2>雲端程式應用實戰/手把手教你玩jQuery</h2>
-                        <div class="content">
+<div class="about-modal modal fade" id="aboutModal5" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">雲端程式應用實戰/手把手教你玩jQuery</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="row">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-3 col-xs-4 text-center col-xs-offset-4">
+                                <div class="col-md-3 col-md-offset-0 col-xs-4 text-center col-xs-offset-4">
                                     <img class="img-circle img-responsive avatar" src="img/class/webapp.jpg" alt="">
                                     <div class="name">
                                         講師: 曹暘鑫 Eason
@@ -1179,29 +1198,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-right">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                返回
-                            </button>
-                        </div>
-                    </div>
                 </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                    關閉
+                </button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- About Modal #6 -->
-<div class="about-modal modal fade " id="aboutModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="modal-body">
-                        <h2>黑客松 (Hackthon)</h2>
-                        <div class="content">
+<div class="about-modal modal fade" id="aboutModal6" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">黑客松 (Hackthon)</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="row">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-3 col-xs-4 text-center col-xs-offset-4">
+                                <div class="col-md-3 col-md-offset-0 col-xs-4 text-center col-xs-offset-4">
                                     <span class="img-circle img-responsive avatar"><i class="fa fa-group fa-5x" aria-hidden="true"></i>
                                     </span>
                                     <div class="name">
@@ -1233,18 +1255,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-right">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                返回
-                            </button>
-                        </div>
-                    </div>
                 </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                    關閉
+                </button>
             </div>
         </div>
     </div>
 </div>
-
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 

@@ -91,10 +91,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 40px;
 }
 
+.intro-text .btn-xl{
+    background:rgba(0,0,0,0.2);
+    transition: .25s;
+}
+
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #fec503;
-    border-color: #f6bf01
+    border-color: #f6bf01;
 }
 
 .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
@@ -203,11 +208,6 @@ h1, h2, h3, h4, h5, h6 {
     width:100%;
 }
 .about-modal{
-    max-width:750px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:10%;
-    margin-bottom:1.75em;
 }
 .about-modal .modal-body .content{
     margin:20px 0;
@@ -251,6 +251,11 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em
     }
+    
+    .modal-dialog{
+        width:auto;
+        max-width:65%;
+    }
 }
 
 header {
@@ -287,6 +292,13 @@ header .intro-text .intro-heading {
     text-shadow: 2px 3px 5px #000;
 }
 
+header .intro-text .btn{
+    margin-top:33%;
+    margin-top: -webkit-calc(100vh - 270px);
+    margin-top: -moz-calc(100vh - 270px);
+    margin-top: calc(100vh - 270px);
+}
+
 @media (min-width: 768px) {
     header .intro-text {
         padding-top: 150px;
@@ -298,13 +310,6 @@ header .intro-text .intro-heading {
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
-    }
-
-    header .intro-text .btn{
-        margin-top:33%;
-        margin-top: -webkit-calc(100vh - 270px);
-        margin-top: -moz-calc(100vh - 270px);
-        margin-top: calc(100vh - 270px);
     }
 
     header .intro-text .intro-heading {
