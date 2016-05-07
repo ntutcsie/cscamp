@@ -15,6 +15,14 @@
 
     $('img').lazyload();
 
+    $('input[name="signup_checkbox"]').click(function() {
+        if ( $(this).prop('checked') ) {
+            $('#signupNow').removeAttr('disabled');
+        } else {
+            $('#signupNow').attr('disabled', true);
+        }
+    });
+
 })(jQuery);
 
 wow = new WOW({

@@ -233,7 +233,10 @@
                 </div><!-- /countdown_dashboard -->
 
                 <hr/>
-                <a href="###" class="btn btn-xl btn-lg btn-block" disabled="disabled">尚未開放報名</a>
+                <div class="text-center">
+                    <label><input type="checkbox" name="signup_checkbox" value="0"> 我清楚右側的報名流程了！</label>
+                </div>
+                <a href="http://ntut-csie.kktix.cc/events/camp2016" class="btn btn-xl btn-lg btn-block" id="signupNow" target="_blank" disabled="disabled">立即報名</a>
                 <p>&nbsp;</p>
             </div>
             <div id="signup-step" class="col-sm-6 wow animated flipInY">
@@ -304,11 +307,33 @@
                         </div>
                         <div class="tab-pane fade" id="pay">
                             <h3 class="head text-center">繳費</h3>
-                            <p class="narrow text-center">繳費方式將於報名期間公告</p>
+                            <p class="form-group">
+                                <label class="form-control-label">繳費金額：</label>
+                                <span class="form-control-static">新台幣 500 元整</span>
+                            </p>
+                            <p class="form-group">
+                                <label class="form-control-label">繳費期間：</label>
+                                <span class="form-control-static">05/16(一)~05/22(日)</span>
+                            </p>
+                            <p class="form-group">
+                                <label class="form-control-label">繳費方式：</label>
+                                <span class="form-control-static">郵局無摺存款、ATM轉帳</span>
+                            </p>
+                            <p class="form-group">
+                                <label class="form-control-label">匯款戶名：</label>
+                                <span class="form-control-static">國立臺北科技大學資訊工程系學會</span>
+                            </p>
+                            <p class="form-group">
+                                <label class="form-control-label">匯款帳號：</label>
+                                <span class="form-control-static">(郵局)700 - 0001327 0528875</span>
+                            </p>
+
+
+
                         </div>
                         <div class="tab-pane fade" id="mail">
-                            <h3 class="head text-center">寄送家長同意書</h3>
-                            <p class="narrow text-center">詳細資訊將於報名期間公告</p>
+                            <h3 class="head text-center">寄送家長同意書及匯款資訊</h3>
+                            <p class="narrow text-center">詳細資訊將於繳費期間公告</p>
                             <p class="text-center hidden">
                                 <a href="" class="btn btn-success btn-outline-rounded green">
                                     下載家長同意書 <i class="fa fa-cloud-download" aria-hidden="true"></i>
