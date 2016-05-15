@@ -260,7 +260,7 @@
                     <div class="board-inner">
                         <ul class="nav nav-tabs" id="register">
                             <div class="liner"></div>
-                            <li class="active">
+                            <li>
                                 <a href="#info" data-toggle="tab" title="報名資訊">
                                 <span class="round-tabs one">
                                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -269,19 +269,19 @@
                             </li>
                             <li><a href="#wait" data-toggle="tab" title="等待報名結果">
                                 <span class="round-tabs two">
-                                <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                                <i class="fa fa-spinner" aria-hidden="true"></i>
                                 </span>
                                 </a>
                             </li>
-                            <li><a href="#pay" data-toggle="tab" title="繳費">
+                            <li class="active"><a href="#pay" data-toggle="tab" title="繳費">
                                 <span class="round-tabs three">
-                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                <i class="fa fa-usd fa-spin" aria-hidden="true"></i>
                                 </span>
                                 </a>
                             </li>
                             <li><a href="#mail" data-toggle="tab" title="寄送家長同意書">
                                 <span class="round-tabs four">
-                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <i class="fa fa-envelope-o fa-spin" aria-hidden="true"></i>
                                 </span>
                                 </a>
                             </li>
@@ -294,7 +294,7 @@
                         </ul>
                     </div>
                     <div class="tab-content">
-                        <div class="tab-pane fade in active" id="info">
+                        <div class="tab-pane fade" id="info">
                             <p class="form-group">
                                 <label class="form-control-label">活動日期：</label>
                                 <span class="form-control-static">07/04(一)~07/06(三)</span>
@@ -307,7 +307,11 @@
                             </p>
                             <p class="form-group">
                                 <label class="form-control-label">報名期間：</label>
-                                <span class="form-control-static">2016/05/08 (日) ~ 2016/05/15 (日)</span>
+                                <span class="form-control-static">第一階段 2016/05/08 (日) ~ 2016/05/15 (日)</span>
+                            </p>
+                            <p class="form-group">
+                                <label class="form-control-label">　　　　　</label>
+                                <span class="form-control-static">第二階段 2016/05/23 (一) ~ 2016/05/26 (四)</span>
                             </p>
                             <p class="form-group">
                                 <label class="form-control-label">報名費用：</label>
@@ -320,7 +324,7 @@
                                 詳細名單將公告於網站
                             </p>
                         </div>
-                        <div class="tab-pane fade" id="pay">
+                        <div class="tab-pane fade in active" id="pay">
                             <h3 class="head text-center">繳費</h3>
                             <p class="form-group">
                                 <label class="form-control-label">繳費金額：</label>
