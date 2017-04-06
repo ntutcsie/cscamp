@@ -20,7 +20,11 @@ p.large {
     font-size: 18px
 }
 
-a, a:hover, a:focus, a:active, a.active {
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
     outline: 0
 }
 
@@ -28,11 +32,19 @@ a {
     color: #fed136
 }
 
-a:hover, a:focus, a:active, a.active {
+a:hover,
+a:focus,
+a:active,
+a.active {
     color: #fec503
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-transform: uppercase;
     font-weight: 700
 }
@@ -57,17 +69,37 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #fec503;
     border-color: #f6bf01
 }
 
-.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
     background-image: none
 }
 
-.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
     background-color: #fed136;
     border-color: #fed136
 }
@@ -84,29 +116,49 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
 }
 
-.btn-lg{
+.btn-lg {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
     padding: 20px 40px;
 }
 
-.intro-text .btn-xl{
-    background:rgba(0,0,0,0.2);
+.intro-text .btn-xl {
+    background: rgba(0, 0, 0, 0.2);
     transition: .25s;
 }
 
-.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #fec503;
     border-color: #f6bf01;
 }
 
-.btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
     background-image: none
 }
 
-.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
     background-color: #fed136;
     border-color: #fed136
 }
@@ -119,15 +171,18 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
     background-color: #222;
     border-color: transparent;
-    border-bottom:1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .navbar-default .navbar-brand {
     color: #fed136;
-    text-shadow: 2px 2px  3px #222;
+    text-shadow: 2px 2px 3px #222;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
     color: #fec503
 }
 
@@ -144,7 +199,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color: #fed136
 }
 
@@ -153,10 +209,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
-    text-shadow: 1px 2px 4px rgba(0,0,0,.5);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
     color: #fed136;
     outline: 0
 }
@@ -167,59 +224,61 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fed136
 }
 
-.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: #fec503
 }
 
-
-.desc-box{
-	margin-bottom: 20px;
-	border-top: 1px solid #eee;
+.desc-box {
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
 }
 
-.desc-box .service-heading{
+.desc-box .service-heading {
     overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-.desc-box .content{
-    position:relative;
+.desc-box .content {
+    position: relative;
     word-break: break-all;
 }
 
-.desc-box .content>p{
-    text-align:left;
+.desc-box .content>p {
+    text-align: left;
 }
 
-.desc-box .content>p.text-muted{
-    text-align:center;
+.desc-box .content>p.text-muted {
+    text-align: center;
 }
 
-.desc-box .content .modal{
+.desc-box .content .modal {
     width: 750px;
 }
 
-.desc-box .height-set .btn-area{
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
-}
-.about-modal{
-}
-.about-modal .modal-body .content{
-    margin:20px 0;
+.desc-box .height-set .btn-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
-.about-modal .avatar{
-    object-fit:cover;
+.about-modal {}
+
+.about-modal .modal-body .content {
+    margin: 20px 0;
+}
+
+.about-modal .avatar {
+    object-fit: cover;
     border: 7px solid #f1f1f1;
 }
-.about-modal .name{
-    text-align:center;
-    margin-top:.75em;
+
+.about-modal .name {
+    text-align: center;
+    margin-top: .75em;
 }
 
 @media (min-width: 768px) {
@@ -231,30 +290,25 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding .3s;
         border: 0
     }
-
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
     }
-
     .navbar-default .navbar-nav > .active > a {
         border-radius: 3px
     }
-
     .navbar-default.navbar-shrink {
         background-color: #222;
         padding: 10px 0
     }
-
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em
     }
-    
-    .modal-dialog{
-        width:auto;
-        max-width:65%;
+    .modal-dialog {
+        width: auto;
+        max-width: 65%;
     }
 }
 
@@ -267,7 +321,7 @@ header {
     text-align: center;
     color: #fff;
     background-color: #000;
-    min-height:100vh;
+    min-height: 100vh;
 }
 
 header .intro-text {
@@ -280,7 +334,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
-    text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .7);
 }
 
 header .intro-text .intro-heading {
@@ -292,8 +346,8 @@ header .intro-text .intro-heading {
     text-shadow: 2px 3px 5px #000;
 }
 
-header .intro-text .btn{
-    margin-top:33%;
+header .intro-text .btn {
+    margin-top: 33%;
     margin-top: -webkit-calc(100vh - 270px);
     margin-top: -moz-calc(100vh - 270px);
     margin-top: calc(100vh - 270px);
@@ -304,14 +358,12 @@ header .intro-text .btn{
         padding-top: 150px;
         padding-bottom: 10px;
     }
-
     header .intro-text .intro-lead-in {
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
     }
-
     header .intro-text .intro-heading {
         text-transform: uppercase;
         font-weight: 700;
@@ -397,7 +449,8 @@ section h3.section-subheading {
     margin-top: -12px
 }
 
-#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0
 }
 
@@ -454,7 +507,8 @@ section h3.section-subheading {
     min-height: 50px
 }
 
-.timeline > li:before, .timeline > li:after {
+.timeline > li:before,
+.timeline > li:after {
     content: " ";
     display: table
 }
@@ -538,44 +592,41 @@ section h3.section-subheading {
     text-transform: none
 }
 
-.timeline .timeline-body > p, .timeline .timeline-body > ul {
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
     margin-bottom: 0
 }
 
 .timeline > li .timeline-image h4 {
     padding-top: 13px;
 }
+
 @media (min-width: 768px) {
     .timeline:before {
         left: 50%
     }
-
     .timeline > li {
         margin-bottom: 100px;
         min-height: 100px
     }
-
     .timeline > li .timeline-panel {
         width: 41%;
         float: left;
         padding: 15px 20px 20px 15px;
         text-align: right
     }
-
     .timeline > li .timeline-image {
         width: 100px;
         height: 100px;
         left: 50%;
         margin-left: -50px
     }
-
     .timeline > li .timeline-image h4 {
         font-size: 13px;
         margin-top: 16px;
         line-height: 18px;
         padding-top: 0;
     }
-
     .timeline > li.timeline-inverted > .timeline-panel {
         float: right;
         text-align: left;
@@ -584,31 +635,26 @@ section h3.section-subheading {
 }
 
 @media (min-width: 992px) {
-    .desc-box{
-        margin-bottom:0;
-        border-top:0;
+    .desc-box {
+        margin-bottom: 0;
+        border-top: 0;
     }
-    
     .timeline > li {
         min-height: 150px
     }
-
     .timeline > li .timeline-panel {
         padding: 25px 20px 20px 0px;
     }
-
     .timeline > li .timeline-image {
         width: 150px;
         height: 150px;
         margin-left: -75px
     }
-
     .timeline > li .timeline-image h4 {
         font-size: 18px;
         margin-top: 30px;
         line-height: 26px
     }
-
     .timeline > li.timeline-inverted > .timeline-panel {
         padding: 25px 20px 20px 0;
     }
@@ -618,21 +664,17 @@ section h3.section-subheading {
     .timeline > li {
         min-height: 170px
     }
-
     .timeline > li .timeline-panel {
         padding: 15px 20px 20px 15px;
     }
-
     .timeline > li .timeline-image {
         width: 170px;
         height: 170px;
         margin-left: -85px
     }
-
     .timeline > li .timeline-image h4 {
         margin-top: 40px
     }
-
     .timeline > li.timeline-inverted > .timeline-panel {
         padding: 15px 20px 20px 15px;
     }
@@ -669,7 +711,10 @@ section#map {
     background-repeat: no-repeat
 }
 
-section#map .section-heading, section#map, .bg-darkest-gray .section-heading, .bg-darkest-gray {
+section#map .section-heading,
+section#map,
+.bg-darkest-gray .section-heading,
+.bg-darkest-gray {
     color: #fff
 }
 
@@ -677,7 +722,8 @@ section#contact .form-group {
     margin-bottom: 25px
 }
 
-section#contact .form-group input, section#contact .form-group textarea {
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding: 20px
 }
 
@@ -694,25 +740,25 @@ section#contact .form-control:focus {
     box-shadow: none
 }
 
-section#contact ::-webkit-input-placeholder {
+section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
-section#contact :-moz-placeholder {
+section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
-section#contact ::-moz-placeholder {
+section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
-section#contact :-ms-input-placeholder {
+section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
@@ -760,22 +806,26 @@ ul.social-buttons li a {
     transition: all .3s
 }
 
-.bg-light-gray ul.social-buttons li a{
+.bg-light-gray ul.social-buttons li a {
     background: #222;
-    color:#FFF;
+    color: #FFF;
 }
 
-.bg-light-gray ul.social-buttons li a:hover, .bg-light-gray ul.social-buttons li a:focus, .bg-light-gray ul.social-buttons li a:active{
+.bg-light-gray ul.social-buttons li a:hover,
+.bg-light-gray ul.social-buttons li a:focus,
+.bg-light-gray ul.social-buttons li a:active {}
 
-}
-
-
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
     background-color: #fed136;
-    color:#FFF;
+    color: #FFF;
 }
 
-.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
     outline: 0
 }
 
@@ -877,31 +927,28 @@ body {
     webkit-tap-highlight-color: #fed136
 }
 
-
-
-
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
 /* written by riliwan balogun http://www.facebook.com/riliwan.rabo*/
-.board{
+
+.board {
     /*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
 }
+
 .board .nav-tabs {
     position: relative;
     margin-bottom: 0;
     box-sizing: border-box;
-
 }
 
-.board > div.board-inner{
+.board > div.board-inner {}
 
-}
-
-#signup-step p.narrow{
+#signup-step p.narrow {
     width: 60%;
     margin: 10px auto;
 }
 
-#signup-step .liner{
+#signup-step .liner {
     height: 2px;
     background: #ddd;
     position: absolute;
@@ -913,14 +960,16 @@ body {
     z-index: 1;
 }
 
-#signup-step .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+#signup-step .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
     color: #555555;
     cursor: default;
     border: 0;
     border-bottom-color: transparent;
 }
 
-span.round-tabs{
+span.round-tabs {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -934,56 +983,60 @@ span.round-tabs{
     font-size: 25px;
 }
 
-span.round-tabs.one{
-    color: rgb(34, 194, 34);border: 2px solid rgb(34, 194, 34);
+span.round-tabs.one {
+    color: rgb(34, 194, 34);
+    border: 2px solid rgb(34, 194, 34);
 }
 
-li.active span.round-tabs.one{
+li.active span.round-tabs.one {
     border: 2px solid #ddd;
     color: rgb(34, 194, 34);
 }
 
-span.round-tabs.two{
-    color: #febe29;border: 2px solid #febe29;
+span.round-tabs.two {
+    color: #febe29;
+    border: 2px solid #febe29;
 }
 
-li.active span.round-tabs.two{
+li.active span.round-tabs.two {
     border: 2px solid #ddd;
     color: #febe29;
 }
 
-span.round-tabs.three{
-    color: #3e5e9a;border: 2px solid #3e5e9a;
+span.round-tabs.three {
+    color: #3e5e9a;
+    border: 2px solid #3e5e9a;
 }
 
-li.active span.round-tabs.three{
+li.active span.round-tabs.three {
     border: 2px solid #ddd;
     color: #3e5e9a;
 }
 
-span.round-tabs.four{
+span.round-tabs.four {
     color: #f1685e;
     border: 2px solid #f1685e;
 }
 
-li.active span.round-tabs.four{
+li.active span.round-tabs.four {
     border: 2px solid #ddd;
     color: #f1685e;
 }
 
-span.round-tabs.five{
+span.round-tabs.five {
     color: #999;
     border: 2px solid #999;
 }
 
-li.active span.round-tabs.five{
+li.active span.round-tabs.five {
     border: 2px solid #ddd;
     color: #999;
 }
 
-#signup-step .nav-tabs > li.active > a span.round-tabs{
+#signup-step .nav-tabs > li.active > a span.round-tabs {
     background: #3F3F3F;
 }
+
 #signup-step .nav-tabs > li {
     width: 20%;
 }
@@ -992,58 +1045,60 @@ li.active span.round-tabs.five{
     content: " ";
     position: absolute;
     left: 45%;
-    opacity:0;
+    opacity: 0;
     margin: 0 auto;
     bottom: 0px;
     border: 5px solid transparent;
     border-bottom-color: #ddd;
-    transition:0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 #signup-step li.active:after {
     content: " ";
     position: absolute;
     left: 45%;
-    opacity:1;
+    opacity: 1;
     margin: 0 auto;
     bottom: 0px;
     border: 10px solid transparent;
     border-bottom-color: #ddd;
 }
-#signup-step .nav-tabs > li a{
-   width: 50px;
-   height: 50px;
-   margin: 20px auto;
-   border-radius: 100%;
-   padding: 0;
+
+#signup-step .nav-tabs > li a {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
 }
 
-#signup-step .nav-tabs > li a:hover{
+#signup-step .nav-tabs > li a:hover {
     background: transparent;
 }
 
-#signup-step .tab-content{
-}
+#signup-step .tab-content {}
 
-#signup-step .tab-pane{
+#signup-step .tab-pane {
     position: relative;
     padding-top: 50px;
 }
-#signup-step .tab-content .head{
+
+#signup-step .tab-content .head {
     /*font-family: 'Roboto Condensed', sans-serif;*/
     font-size: 25px;
     text-transform: uppercase;
     padding-bottom: 10px;
 }
-#signup-step .btn-outline-rounded{
+
+#signup-step .btn-outline-rounded {
     padding: 10px 40px;
     margin: 20px 0;
     border: 2px solid transparent;
     border-radius: 25px;
 }
 
-#signup-step .btn.green{
-    background-color:#5cb85c;
+#signup-step .btn.green {
+    background-color: #5cb85c;
     /*border: 2px solid #5cb85c;*/
     color: #ffffff;
 }
@@ -1051,41 +1106,37 @@ li.active span.round-tabs.five{
 @media (max-width: 585px) {
     .board {
         width: 90%;
-        height:auto !important;
+        height: auto !important;
     }
     span.round-tabs {
-        font-size:16px;
+        font-size: 16px;
         width: 50px;
         height: 50px;
         line-height: 50px;
     }
-    #signup-step .tab-content .head{
-        font-size:20px;
+    #signup-step .tab-content .head {
+        font-size: 20px;
     }
     #signup-step .nav-tabs > li a {
         width: 50px;
         height: 50px;
-        line-height:50px;
+        line-height: 50px;
     }
-
     #signup-step li.active:after {
         content: " ";
         position: absolute;
         left: 35%;
     }
-
     #signup-step .btn-outline-rounded {
-        padding:12px 20px;
+        padding: 12px 20px;
     }
 }
-
 
 @media (max-width: 850px) {
     header {
         background-size: contain !important;
     }
 }
-
 
 #countdown_dashboard {
     max-width: 900px;
@@ -1096,10 +1147,9 @@ li.active span.round-tabs.five{
 
 @media (max-width: 991px) {
     #countdown_dashboard {
-        margin:0 auto;
+        margin: 0 auto;
     }
 }
-
 
 .digit {
     height: 65px;
@@ -1122,12 +1172,15 @@ li.active span.round-tabs.five{
     text-transform: uppercase
 }
 
-.days_dash,.hours_dash,.minutes_dash {
+.days_dash,
+.hours_dash,
+.minutes_dash {
     position: relative;
     margin-bottom: 30px
 }
 
-.days_dash:after,.minutes_dash:after {
+.days_dash:after,
+.minutes_dash:after {
     position: absolute;
     top: 0;
     width: 1px;
