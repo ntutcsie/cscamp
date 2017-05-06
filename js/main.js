@@ -3,12 +3,12 @@
 
     $('#countdown_dashboard').countDown({
         targetDate: {
-        'day': 4,
-        'month': 7,
-        'year': 2016,
-        'hour': 9,
-        'min': 0,
-        'sec': 0
+            'day': 7,
+            'month': 7,
+            'year': 2017,
+            'hour': 9,
+            'min': 0,
+            'sec': 0
         },
         omitWeeks: true
     });
@@ -16,7 +16,7 @@
     $('img').lazyload();
 
     $('input[name="signup_checkbox"]').click(function() {
-        if ( $(this).prop('checked') ) {
+        if ($(this).prop('checked')) {
             $('#signupNow').removeAttr('disabled');
         } else {
             $('#signupNow').attr('disabled', true);
